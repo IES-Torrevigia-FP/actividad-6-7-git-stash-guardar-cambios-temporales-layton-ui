@@ -1,0 +1,11 @@
+stash@{0}: On main: WIP login paso 4
+stash@{1}: On main: WIP login paso 3
+
+===
+
+git stash apply stash@{1}
+
+===
+
+Nos resulta útil agregar un mensaje a un stash por casi el mismo motivo a ponerlos en los commits:
+Nos ayuda a saber exactamente qué cambios hemos hecho en ese momento
