@@ -1,0 +1,7 @@
+git stash -u -m "Incluye archivo no trackeado: notas-temporales.txt"
+git stash list
+git stash pop stash@{0}
+
+===
+
+Añadir -u al git stash, hemos asaegurado que el stash contendrá cambios a archivos no trackeados por git (en este ejemplo, notas-temporales)
