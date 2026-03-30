@@ -1,0 +1,20 @@
+git stash list
+
+stash@{0}: On main: WIP login pasos 1, 2
+
+===
+
+git log --oneline --all
+
+e255632 (hotfix) aplicar hotfix urgente
+8151731 (HEAD -> main) checkpoint 1
+80f2f7c (refs/stash) On main: WIP login pasos 1, 2
+37f984a index on main: 999eb73 definir tarea: login
+999eb73 definir tarea: login
+2aef619 (origin/main, origin/HEAD) add deadline
+e86c405 Initial commit
+
+===
+
+Los cambios que hemos hecho antes del "git stash push" han pasado a una zona apartada de cualquier rama para que podamos hacer checkout y hacer otra tarea sin tener que
+empezar nuestro progreso acutal de nuevo.
