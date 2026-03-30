@@ -23,4 +23,4 @@ Changes to be committed:
 
 ===
 
-
+La diferencia entre git stash apply y git stash pop es simple: pop descarta el stash tras aplicarlo, y apply no.
